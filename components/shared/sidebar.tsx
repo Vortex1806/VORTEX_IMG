@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import { isatty } from 'tty'
+// import { isatty } from 'tty'
 import { Button } from '../ui/button'
 
 const Sidebar = () => {

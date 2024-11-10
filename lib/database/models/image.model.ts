@@ -1,6 +1,6 @@
 import { model, models, Schema } from "mongoose";
 
-import { Document, ObjectId } from "mongoose";
+import { Document } from "mongoose";
 
 export interface IImage extends Document {
     title: string;
@@ -15,9 +15,9 @@ export interface IImage extends Document {
     color?: string;
     prompt?: string;
     author: {
-        _id:string,
-        firstName:string,
-        lastName:string,
+        _id: string,
+        firstName: string,
+        lastName: string,
     }
     createdAt: Date;
     updatedAt: Date;
